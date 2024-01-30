@@ -71,6 +71,7 @@ li a:hover:not(.active) {
   text-align: center;
   width: 50%;
   background-color: #fff;
+  color: #111;
 }
 
 #vending-table img {
