@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vending Machines</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  
+  <div id="navbar">
+    <ul>
+      <li><a class="active" href="#home">
+          <img src="./images/home.png" alt="Home Icon">
+          Home</a></li>
+      <li><a href="#news">
+          <img src="./images/news-icon.png" alt="Newspaper icon">
+          News</a></li>
+      <li><a href="#contact">
+          <img src="./images/mail-icon.png" alt="Email icon">
+          Contact</a></li>
+      <li><a href="#resources">
+          <img src="./images/list-icon.png" alt="Checklist icon">
+          Resources</a></li>
+      <li><a href="#spades">
+          <img src="./images/cards.png" alt="Playing Cards icon">
+          Spades</a></li>
+      <li class="login-user" style="float:right"><a href="#login">
+          <img src="./images/login-user.png" alt="Login Icon" />Log In</a></li>
+    </ul>
+  </div>
+
+  <h1>Vending Machines</h1>
+  <div id="vending-table">
+    <table>
+      <tr>
+        <td><img src="images/drink_machine.jpeg" alt="Drink Machine"></td>
+        <td><img src="images/snack_machine.jpeg" alt="Snack Machine"></td>
+        <td><img src="images/candy_machine.jpeg" alt="Combo Machine"></td>
+      </tr>
+      <tr>
+        <td>Drink Machine</td>
+        <td>Snack Machine</td>
+        <td>Candy Machine</td>
+      </tr>
+    </table>
+  </div>
+
+  <hr>
+
+  <div id="register">
+    <h2>Want a Machine?</h2>
+    <form action="#">
+      <label for="name">Name
+        <input type="text" name="name" id="name" 
+        placeholder="Enter your  name" required />
+      </label>
+      <br>
+      <label for="company">Company
+        <input type="text" name="company" id="company" 
+        placeholder="Enter your company name" required />
+      </label>
+      <br>
+      <label for="email">Email
+        <input type="email" name="email" id="email" 
+        placeholder="Enter your email" required />
+      </label>
+      <br>
+      <label for="phone">Telephone
+        <input type="tel" name="phone" id="phone" 
+        placeholder="Enter your telephone" required />
+      </label>
+      <br>
+      <label for="month">Installation Date
+        <input type="month" name="month" id="month" required />
+      </label>
+      <fieldset>
+        <legend>Machine Type</legend>
+        <input type="checkbox" name="drink" id="drink">
+        <label for="drink">Beverages</label><br>
+        <input type="checkbox" name="snack" id="snack">
+        <label for="snack">Snacks</label><br>
+        <input type="checkbox" name="candy" id="candy">
+        <label for="candy">Candy</label><br>
+      </fieldset>
+      <br>
+      <input type="submit" value="Register">
+    </form>
+  </div>
+
+  <p id="buy">Buy your own <a href="https://www.candymachines.com/" target="_blank">vending machine!</a></p>
+  
+
+</body>
+
+</html>
