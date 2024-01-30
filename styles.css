@@ -1,0 +1,84 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-image: url('images/spades_bg.png');
+  height: 100vh;
+  color: #eee;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #bbb;
+}
+
+li {
+  float: left;
+  /* border-right: 1px solid #777; */
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: #111;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #777;
+  color: #eee
+}
+
+.active {
+  background-color: maroon;
+  color: #eee
+}
+
+.login-user {
+  height: 1em;
+  margin-right: 0.5em;
+  vertical-align: bottom;
+}
+
+.login-user a:hover:not(.active) {
+  background-color: navy;
+  color: #eee
+}
+
+#navbar img {
+  height: 1em;
+  margin-right: 0.5em;
+  vertical-align: bottom;
+}
+
+#register {
+  background: #eee;
+  color: #111;
+  width: 20%;
+  border: 5px solid black;
+  padding: 0 10px 10px 10px;
+  margin-bottom: 20px;
+  /* display: inline-block; */
+}
+
+#vending-table {
+  text-align: center;
+  width: 50%;
+  background-color: #fff;
+}
+
+#vending-table img {
+  text-align: center;
+  width: 90%
+}
+
+#buy > a {
+  color: lightblue;
+  text-decoration: none;
+}
